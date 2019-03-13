@@ -1,0 +1,37 @@
+.headersmall {
+  background: $main;
+  max-height: 60px;
+  padding: 10px 10px 0px;
+  color: #FFF;
+
+
+  .inner{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    @media only screen and (min-width: $cut) {
+      width: 80%;
+    }
+
+  }
+
+  a {
+    padding: 0px 10px 0px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0;
+    color: #FFF;
+    @media only screen and (min-width: $cut) {
+      font-size: 30px;
+    }
+
+    &:hover{
+      color: $sec;
+    }
+    &:active {
+      color: $sec;
+    }
+  }
+}
